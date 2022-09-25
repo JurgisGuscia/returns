@@ -1,0 +1,25 @@
+.control {
+    height: 200px;
+    width: 200px;
+    border: var(--border);
+    text-align: center;
+    float: right;
+}
+.control-btn {
+    margin-top: 10px;
+}
+.control_btn-container__new {
+
+}
+.control_btn-container__send {
+    margin-bottom: 10px;
+}
+.control_btn-container__filter-returned {
+
+}
+.control_btn-container__filter-sent {
+
+}
+.control_btn-container__filter-delivered {
+
+}

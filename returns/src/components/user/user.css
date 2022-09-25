@@ -1,0 +1,24 @@
+.user-container {
+    height: 350px;
+    width: 200px;
+    border: var(--border);
+    text-align: center;
+    float: left;
+}
+.user-container__icon {
+    width: 100%;
+    height: 200px;
+    border-bottom: var(--border);
+}
+.user-container__name {
+    margin-top: 5px;
+}
+.user-container__position {
+    margin-top: 5px;
+}
+.user-container__department {
+    margin-top: 5px;
+}
+.user-container__logout {
+    margin-top: 40px;
+}

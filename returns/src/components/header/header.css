@@ -1,0 +1,9 @@
+.header {
+    border: var(--border);
+    background-color:beige;
+    width: 800px;
+    height: 28px;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 1.5rem;
+}

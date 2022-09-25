@@ -1,0 +1,14 @@
+:root {
+    --border: solid grey 1px;
+}
+.app {
+    width: 1226px;
+    margin: auto;
+    margin-top: 50px;
+}
+.main {
+    width: 800px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
