@@ -1,10 +1,15 @@
 :root {
-    --border: solid grey 1px;
+    --color-1: #090808;
+    --color-2: #939597;
+    --color-3: #7B8487;
+    --color-4: #777B84;
+    --border: solid var(--color-1) 1px;
 }
 .app {
     width: 1226px;
     margin: auto;
     margin-top: 50px;
+    color: var(--color-1);
 }
 .main {
     width: 800px;
