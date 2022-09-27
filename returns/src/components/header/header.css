@@ -1,9 +1,10 @@
 .header {
     border: var(--border);
-    background-color: var(--color-2);
+    background-color: var(--color-1);
+    color: var(--color-4);
     width: 800px;
-    height: 28px;
     text-align: center;
-    padding-top: 2px;
-    font-size: 1.5rem;
+    height: 25px;
+    padding-top: 5px;
+    font-size: 1.2rem;
 }

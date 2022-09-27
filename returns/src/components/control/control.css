@@ -1,25 +1,48 @@
 .control {
     height: 200px;
     width: 200px;
-    border: var(--border);
     text-align: center;
     float: right;
 }
+.control-container {
+    min-height: 200px;
+}
 .control-btn {
-    margin-top: 10px;
+    width: 160px;
 }
-.control_btn-container__new {
-
-}
-.control_btn-container__send {
+.control-container__function-container{
+    height: 110px;
+    width: 100%;
+    border: var(--border);
     margin-bottom: 10px;
 }
-.control_btn-container__filter-returned {
-
+.control-container__function-container button{
+    margin-bottom: 10px;
 }
-.control_btn-container__filter-sent {
-
+.control-container__function-container__header{
+    height: 25px;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    margin-bottom: 10px;
 }
-.control_btn-container__filter-delivered {
-
+.control-container__filter-container{
+    height: 130px;
+    width: 100%;
+    border: var(--border);
+    margin-bottom: 10px;
+}
+.control-container__filter-container__header{
+    height: 25px;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    margin-bottom: 10px;
+}
+.control-container__filter-container button {
+    margin-bottom: 10px;
 }

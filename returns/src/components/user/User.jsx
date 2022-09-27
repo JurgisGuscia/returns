@@ -3,6 +3,7 @@ import "./user.css";
 const User = () => {
   return (
     <div className="user-container">
+      <div className="user-container__header">Vartotojas</div>
       <div className="user-container__icon"></div>
       <div className="user-container__name">Darius Jurgis Guščia</div>
       <div className="user-container__position">Prekių priėmėjas</div>
