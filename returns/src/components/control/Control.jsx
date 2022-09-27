@@ -5,7 +5,7 @@ const Control = () => {
     <div className="control-container">
       <div className="control-container__function-container">
       <div className="control-container__function-container__header">Funkcijos</div>
-        <button className="control__btn-container__new control-btn">Nauja prekė</button>
+        <button onClick={handleclick} className="control__btn-container__new control-btn">Nauja prekė</button>
         <button className="control__btn-container__send control-btn">Pažymėtus siųsti į PPG</button>
       </div>
       <div className="control-container__filter-container">
@@ -17,5 +17,7 @@ const Control = () => {
     </div>
   )
 }
-
+function handleclick(){
+  document.getElementById("backdrop").classList.toggle("hidden");
+}
 export default Control

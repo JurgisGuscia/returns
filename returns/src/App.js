@@ -1,9 +1,10 @@
 import React from "react";
-import { Body, Control, Header, User, New_merc } from "./components";
+import { Body, Control, Header, User, New_merc, Backdrop } from "./components";
 import "./App.css";
 const App = () => {
   return (
     <div className="app">
+      <Backdrop />
       <div className="user-dashboard">
         <User />
       </div>
