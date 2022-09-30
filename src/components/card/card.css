@@ -1,0 +1,49 @@
+.card { 
+    width: 100%;
+    border: var(--border);
+    margin-bottom: 10px;
+    height: 22px;
+    justify-content: left;
+    padding-top: 3px;
+}
+.card__code {
+    margin-left: 2px;
+    width: 100px;
+    float:left;
+}
+.card__name {
+    width: 300px;
+    float:left;
+}
+.card__ammount {
+    width: 50px;
+    float:left;
+}
+.card__source {
+    width: 100px;
+    float:left;
+}
+.card__date {
+    width: 100px;
+    float:left;
+}
+.card__status {
+    width: 85px;
+    float:left;
+}
+.card__selection {
+    float:left;
+}
+.card__edit-btn {
+    float:right;
+    margin:auto;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+.card button {
+    height: 18px;
+    width: 18px;
+    padding: 0;
+    margin: 0;
+    margin-right: 2px;
+}

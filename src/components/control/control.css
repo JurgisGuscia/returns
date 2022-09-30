@@ -1,0 +1,48 @@
+.control {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    float: right;
+}
+.control-container {
+    min-height: 200px;
+}
+.control-btn {
+    width: 160px;
+}
+.control-container__function-container{
+    height: 110px;
+    width: 100%;
+    border: var(--border);
+    margin-bottom: 10px;
+}
+.control-container__function-container button{
+    margin-bottom: 10px;
+}
+.control-container__function-container__header{
+    height: 25px;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    margin-bottom: 10px;
+}
+.control-container__filter-container{
+    height: 130px;
+    width: 100%;
+    border: var(--border);
+    margin-bottom: 10px;
+}
+.control-container__filter-container__header{
+    height: 25px;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    margin-bottom: 10px;
+}
+.control-container__filter-container button {
+    margin-bottom: 10px;
+}
