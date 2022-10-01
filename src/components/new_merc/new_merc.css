@@ -4,7 +4,7 @@
   z-index: 5;
   border: var(--border);
   width: 300px;
-  height: 400px;
+  height: 250px;
   position: absolute;
   left: 0;
   right: 0;
@@ -23,4 +23,37 @@
   text-align: center;
 }
 .newMerc__container__content {
+  width: 100%;
+}
+.newMerc__container__content__form__label {
+  display: block;
+  width: 130px;
+  height: 22px;
+  padding-top: 2px;
+  text-align: right;
+  float: left;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.newMerc__container__content__form__input {
+  display: block;
+  width: 150px;
+  height: 20px;
+  margin-bottom: 5px;
+  border: var(--border);
+}
+#time_input {
+  height: 22px;
+  width: 152px;
+}
+.newMerc__container__content__form__button {
+  height: 20px;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.newMerc__container__content__form__button-container {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
 }
