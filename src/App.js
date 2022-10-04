@@ -1,11 +1,20 @@
 import React from "react";
-import { Body, Control, Header, User, NewMerc, Backdrop } from "./components";
+import {
+  Body,
+  Control,
+  Header,
+  User,
+  NewMerc,
+  Backdrop,
+  Info_card,
+} from "./components";
 import "./App.css";
 const App = () => {
   return (
     <div className="app">
       <Backdrop />
       <NewMerc />
+      <Info_card />
       <div className="user-dashboard">
         <User />
       </div>

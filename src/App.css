@@ -4,6 +4,7 @@
   --color-3: #7b8487;
   --color-4: #777b84;
   --border: solid var(--color-1) 1px;
+  cursor: default;
 }
 .app {
   width: 1226px;
