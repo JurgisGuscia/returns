@@ -1,5 +1,8 @@
 import React from "react";
 import "./new_merc.css";
+const current = new Date();
+current.setDate(current.getDate());
+var date = current.toISOString().substring(0, 10);
 const NewMerc = () => {
   return (
     <div id="newMerc__container" className="newMerc__container hidden">
@@ -40,6 +43,7 @@ const NewMerc = () => {
           <input
             id="time_input"
             className="newMerc__container__content__form__input"
+            defaultValue={date}
             type="date"
           ></input>
           <div className="newMerc__container__content__form__button-container">
