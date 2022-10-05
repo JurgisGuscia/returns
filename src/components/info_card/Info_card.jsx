@@ -2,7 +2,7 @@ import React from "react";
 import "./info_card.css";
 const Info_card = () => {
   return (
-    <div className="info-card-container">
+    <div id="info-card-container" className="info-card-container">
       <div className="info-card-container__header">Įrašo informacija</div>
       <div className="info-card-container__content">
         <div className="info-card-container__content__line">
@@ -53,12 +53,19 @@ const Info_card = () => {
             Čia statusas
           </p>
         </div>
-        <div type="button" className="info-card-container__content__button">
+        <div
+          type="button"
+          onClick={infoCloseClick}
+          className="info-card-container__content__button"
+        >
           Uždaryti
         </div>
       </div>
     </div>
   );
 };
-
+function infoCloseClick() {
+  document.getElementById("info-card-container").classList.add("hidden");
+  document.getElementById("backdrop").classList.add("hidden");
+}
 export default Info_card;
